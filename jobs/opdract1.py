@@ -4,13 +4,13 @@ from nautobot.extras.jobs import *
 import io
 import os
 
-name = "First job 3"
+name = "First job 4"
 
 
 class TestingJob(Job):
     class Meta:
-        name = "Test job 3 Layla"
-        description = "This is an test 3"
+        name = "Test job 4 Layla"
+        description = "This is an test 4"
 
     def run(self, data, commit):
         self.log_info("Het werkt")
